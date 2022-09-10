@@ -1,0 +1,56 @@
+
+
+
+.contactMe{
+    padding-top:20px;
+    padding-bottom:200px;
+    background-color:#354A54;
+    height:50vh
+}
+
+.contactMe h2{
+    color:white;
+    margin-top:10px;
+    text-align:center;
+    font-size: 3em;
+    font-weight:700;
+}
+
+.contactMe form{
+    
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+   margin: auto;
+   margin-top:100px;
+}
+
+.contactMe form *{
+    padding:10px;
+    margin:10px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid black ;
+}
+
+input::placeholder, textarea::placeholder{
+    color:white;
+}
+
+#textA{
+    padding-bottom: 80px;
+}
+.contactMe form button{
+    background: #f69ec4;
+    color:white;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.contactMe form button:hover{
+    background: #b3728e;
+    cursor:pointer;
+    transform: scale(1.1)
+}

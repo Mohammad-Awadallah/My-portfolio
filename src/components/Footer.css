@@ -1,0 +1,13 @@
+
+
+.footer{
+    padding: 10px;
+    background-color:#DFF4FF;;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer h2 span{
+    color :#2E007A;
+}
+
